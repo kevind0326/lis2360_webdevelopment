@@ -5,7 +5,7 @@ body {
 	font-family: Geneva, Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	line-height: 1.7em;
-	color: #FFFFFF;
+	color: #000000;
 	background-color: #333333;
 	padding: 0 40px;
 }
@@ -13,7 +13,7 @@ body {
 /* basic text styles ----------------------------  */
 p, li, td {
 	letter-spacing: 0.1em;
-	color: #CCCCCC;
+	color: #000000;
 }
 h1 {
 	font-size: 24px;
@@ -27,7 +27,7 @@ h2 {
 	padding: 6px;
 	font-variant: small-caps;
 	letter-spacing: 0.5em;
-	background-color: #000000;
+	background-color: #d3d3d3;
 }
 h3 {
 	font-size: 17px;
@@ -43,12 +43,12 @@ h3 {
 /* link styles ---------------------------- */
 a:link {
 	font-weight: bold;
-	color: #ffffff;
+	color: #000000;
 	text-decoration: none;
 }
 a:visited {
 	font-weight: bold;
-	color: #ffffff;
+	color: #000000;
 	text-decoration: none;
 }
 a:hover {
@@ -66,32 +66,76 @@ ol {
 
 /* table styles -------------------------------------- */
 table {
-	border: solid #ffffff 1px;
+	border: solid #000000 1px;
 }
 td {
 	padding: 6px;
-	border: solid #ffffff 1px;
+	border: solid #000000 1px;
 }
 th {
 	font-weight: bold;
 	background-color: #ffffff;
 	text-align: center;
 	padding: 6px;
-	border: solid #ffffff 1px;
+	border: solid #000000 1px;
 }
 
 /* border styles ------------------------------------ */
 hr {
-	border: solid #ffffff 1px;
+	border: solid #000000 1px;
 }
 
 img {
-	border: solid #ffffff 1px;
+	border: solid #000000 1px;
 
 }
 
 iframe {
-	border: solid #ffffff 1px;
+	border: solid #000000 1px;
 	padding: 8px;
 	margin: 8px;
+}
+
+/* DIV STYLES FOR PAGE LAYOUT */
+
+
+#container { 
+	width: 900px; 
+	margin: 0 auto; 
+	background-color: #fff; 
+	overflow: hidden; 
+}
+#header { 
+	width: 100%; 
+	background-color: #EEE;
+	border-bottom: 1px solid #800000;
+}
+#content { 
+	width: 600px;
+	float: left; 
+	padding-bottom: 40px;
+}
+#sidebar { 
+	width: 278px; 
+	float: left;
+	margin-top: 50px;
+	margin-right: 20px;
+	background: #eee;
+	border: 1px solid #800000;
+	border-radius: 12px;
+	box-shadow: 10px 10px 5px #888888;
+}
+#sidebar p{
+	padding: 0;
+	float: right;
+}
+#footer { 
+	clear: both;
+	width: 100%; 
+	background-color: #EEE;
+	border-top: 1px solid #800000;
+}
+#footer p {
+	margin: 0;
+	padding: 40px;
 }
