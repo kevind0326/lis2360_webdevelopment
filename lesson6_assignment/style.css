@@ -95,3 +95,46 @@ iframe {
 	padding: 8px;
 	margin: 8px;
 }
+/* DIV STYLES FOR PAGE LAYOUT */
+
+
+#container { 
+	width: 900px; 
+	margin: 0 auto; 
+	background-color: #fff; 
+	overflow: hidden; 
+}
+#header { 
+	width: 100%; 
+	background-color: #EEE;
+	border-bottom: 1px solid #800000;
+}
+#content { 
+	width: 600px;
+	float: left; 
+	padding-bottom: 40px;
+}
+#sidebar { 
+	width: 278px; 
+	float: left;
+	margin-top: 50px;
+	margin-right: 20px;
+	background: #eee;
+	border: 1px solid #800000;
+	border-radius: 12px;
+	box-shadow: 10px 10px 5px #888888;
+}
+#sidebar p{
+	padding: 0;
+	float: right;
+}
+#footer { 
+	clear: both;
+	width: 100%; 
+	background-color: #EEE;
+	border-top: 1px solid #800000;
+}
+#footer p {
+	margin: 0;
+	padding: 40px;
+}
