@@ -3,9 +3,9 @@
 /* ----------------- NAVIGATION BAR STYLES -------------------*/ 
 /* TABBED NAVIGATION */
 #navbar{
-	width: 10%; /* as wide as container - make sure buttons don't exceed container width */
+	width: 100%; /* as wide as container - make sure buttons don't exceed container width */
 	/* reducing height hides the bottom of the buttons and the bottom rounded corners of buttons */
-	height: 95px;
+	height: 45px;
 	overflow: hidden; /* necessary for tab style nav bar to hide bottom of buttons */
 	margin-bottom: 0px; /* pushes page content down */
 }	
